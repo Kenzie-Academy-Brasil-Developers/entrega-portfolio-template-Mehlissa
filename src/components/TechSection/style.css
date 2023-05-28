@@ -1,0 +1,16 @@
+.section__TechList {
+    margin-top: 65px;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 25px;
+}
+
+.section__TechList--Cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    gap: 20px;
+}

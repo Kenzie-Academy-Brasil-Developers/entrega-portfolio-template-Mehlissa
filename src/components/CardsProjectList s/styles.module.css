@@ -1,0 +1,44 @@
+.listProject {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 220px;
+    height: 120px   ;
+    padding: 20px 30px;
+
+    gap: 15px;
+
+    border: 1px solid var(--color-grey-white-Opaccity);
+    border-radius: 25px;
+}
+
+.listProjectDivPrimary {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.listProject--Anchor {
+    text-decoration: none;
+
+    font-weight: 700;
+    font-size: 16px;
+
+    margin-top: 20px;
+
+    color: var(--color-primary);
+}
+
+.listProject--Anchor:hover {
+    color: var(--color-primary-Hover);
+
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    .listProject {
+        width: 320px;
+    }
+}

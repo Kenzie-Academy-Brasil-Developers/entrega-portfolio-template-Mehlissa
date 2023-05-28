@@ -1,0 +1,10 @@
+.divImage__image {
+    max-width: 100%;
+}
+
+.divImage {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 60px;
+}

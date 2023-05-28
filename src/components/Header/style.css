@@ -1,0 +1,73 @@
+.header__main {
+    width: 100%;
+    padding: 12px 0px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.header__main--title {
+    margin-bottom: 15px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.header__main--buttons {
+    display: flex;
+    gap: 10vw;
+}
+
+.header__main--button {
+    background-color: var(--color-grey-black);
+    color: var(--color-grey-white);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.94px;
+    
+    border: none;
+}
+
+.header__main--button:hover {
+    color: var(--color-primary-Hover);
+
+    cursor: pointer;
+}
+
+.header__main--buttonContact {
+    background-color: var(--color-primary);
+    color: var(--color-grey-white);
+
+    width: 100px;
+    height: 33px;
+    margin-top: 25px;
+
+    border: none;
+    border-radius: 12px;
+}
+
+.header__main--buttonContact:hover {
+    background-color: var(--color-primary-Hover);
+
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    .header__main {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .header__main--title {
+        margin-top: 15px;
+    }
+
+    .header__main--buttonContact {
+        margin-bottom: 24px;
+    }
+}

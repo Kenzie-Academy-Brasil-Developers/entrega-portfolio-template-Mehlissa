@@ -1,0 +1,12 @@
+.section__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    gap: 20px;
+}
+
+.section__Title {
+    margin-bottom: 25px;
+    margin-top: 90px;
+}
