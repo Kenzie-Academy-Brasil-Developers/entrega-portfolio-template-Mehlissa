@@ -1,6 +1,6 @@
-import { CardsTechList } from '../CardsTechList';
-import { technologies } from '../../data/technologies';
-import '../TechSection/style.css';
+import { CardsTechList } from "../CardsTechList";
+import { technologies } from "../../data/technologies";
+import "../TechSection/style.css";
 
 export const TechSection = () => {
     return (

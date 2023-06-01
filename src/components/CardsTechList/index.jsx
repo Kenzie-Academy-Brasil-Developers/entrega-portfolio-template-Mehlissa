@@ -1,4 +1,4 @@
-import '../CardsTechList/style.css';
+import "../CardsTechList/style.css";
 
 export const CardsTechList = ({ name, image }) => {
     return (

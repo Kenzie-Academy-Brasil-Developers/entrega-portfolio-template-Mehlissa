@@ -1,5 +1,5 @@
-import '../Header/style.css';
-import '../../style/globalStyle.css';
+import "../Header/style.css";
+import "../../style/globalStyle.css";
 
 export const Header = () => {
     return (

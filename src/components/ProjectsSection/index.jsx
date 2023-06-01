@@ -1,7 +1,7 @@
-import { CardsProjectList } from '../CardsProjectList s';
-import { projects } from '../../data/projects';
+import { CardsProjectList } from "../CardsProjectList s";
+import { projects } from "../../data/projects";
 
-import '../ProjectsSection/style.css';
+import "../ProjectsSection/style.css";
 
 export const ProjectSection = () => {
     return (

@@ -1,5 +1,5 @@
-import '../BannerSection/style.css';
-import { username } from '../../data/user';
+import "../BannerSection/style.css";
+import { username } from "../../data/user";
 
 export const Section = () => {
     return (

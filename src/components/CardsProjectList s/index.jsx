@@ -1,6 +1,6 @@
-import styles from '../CardsProjectList s/styles.module.css';
+import styles from "../CardsProjectList s/styles.module.css";
 
-import gitImage from '../../assets/git-icon.png';
+import gitImage from "../../assets/git-icon.png";
 
 export const CardsProjectList = ({ name, descriptions }) => {
     return (
